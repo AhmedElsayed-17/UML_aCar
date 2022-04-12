@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T01:50:45.133Z" agent="5.0 (Windows)" etag="cR5cQRlqLPn0wGHgvz-y" version="17.4.3" type="github" pages="2">
-  <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
+<mxfile host="app.diagrams.net" modified="2022-04-12T01:52:11.531Z" agent="5.0 (Windows)" etag="_W8cehQKUsBqSTUi92qI" version="17.4.3" type="github" pages="2">
+  <diagram name="General" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="716" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
@@ -12,7 +12,7 @@
             <mxPoint x="890" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fvpAQNT1NIFyqL6tFtzC-3" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;aCar&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="fvpAQNT1NIFyqL6tFtzC-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;aCar&lt;/font&gt;&lt;font style=&quot;font-size: 17px&quot;&gt; Trunck&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fvpAQNT1NIFyqL6tFtzC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=17;strokeColor=none;" edge="1" parent="1" source="fvpAQNT1NIFyqL6tFtzC-5">
@@ -79,11 +79,11 @@
         <mxCell id="fvpAQNT1NIFyqL6tFtzC-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=17;strokeColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="185" as="sourcePoint" />
-            <mxPoint x="350" y="405" as="targetPoint" />
+            <mxPoint x="350" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fvpAQNT1NIFyqL6tFtzC-21" value="specialization" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="280" y="280" width="100" height="30" as="geometry" />
+          <mxGeometry x="260" y="305" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fvpAQNT1NIFyqL6tFtzC-23" value="Ultrasound" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="410" width="70" height="60" as="geometry" />
@@ -118,16 +118,16 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="tjdyI6w0hLFioTKMTBFz" name="Page-2">
-    <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="tjdyI6w0hLFioTKMTBFz" name="UML">
+    <mxGraphModel dx="1038" dy="-318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="H-3Qv8VP3MD2U0tTN8UC-1" value="&lt;p&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;Acceleration&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="680" y="1010" width="160" height="70" as="geometry" />
+          <mxGeometry x="390" y="1460" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H-3Qv8VP3MD2U0tTN8UC-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;requirement&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Emissions&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;Id = &quot;R1.1.2&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px ; text-align: left&quot;&gt;text=&quot;The vehicle shall meet UltraLow Emissions Vehicle standards.&quot;&lt;/p&gt;" style="shape=rect;html=1;overflow=fill;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="330" y="950" width="290" height="120" as="geometry" />
+          <mxGeometry x="90" y="1340" width="290" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
