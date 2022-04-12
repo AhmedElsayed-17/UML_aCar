@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T19:13:45.203Z" agent="5.0 (Windows)" etag="ahR8q8ZRRYPjHISd6sVC" version="17.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-12T19:36:09.065Z" agent="5.0 (Windows)" etag="5nlL-TxIPUAb2gd76yTD" version="17.4.3" type="github" pages="3">
   <diagram name="General" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -119,23 +119,39 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tjdyI6w0hLFioTKMTBFz" name="UML">
-    <mxGraphModel dx="1038" dy="-318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ymkZttFPiQcAVLi8c05M-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="ymkZttFPiQcAVLi8c05M-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="990" as="targetPoint" />
+            <mxPoint x="630" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ymkZttFPiQcAVLi8c05M-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;Start&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="870" width="100" height="80" as="geometry" />
+          <mxGeometry x="580" y="30" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BLPmgUg1dD0FdtuLCdOj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="BLPmgUg1dD0FdtuLCdOj-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BLPmgUg1dD0FdtuLCdOj-1" value="&lt;div&gt;Check Vehicle Model&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BLPmgUg1dD0FdtuLCdOj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="BLPmgUg1dD0FdtuLCdOj-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BLPmgUg1dD0FdtuLCdOj-3" value="&lt;div&gt;Generate restrictions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;e.g. Maximum height can be handled&lt;/div&gt;&lt;div&gt;&lt;div&gt;Dim. of the Trunk&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Car weight&lt;/div&gt;&lt;div&gt;Battery performance curve (RPM / Torque)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="505" y="260" width="250" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="rjClvxTZDQUNRr1vejGJ" name="Optimization Algorithm">
-    <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,8 +179,32 @@
         <mxCell id="S8AWVA7TtjHDBbPfj8Qo-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=17;" vertex="1" parent="S8AWVA7TtjHDBbPfj8Qo-11">
           <mxGeometry y="50" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="S8AWVA7TtjHDBbPfj8Qo-14" value="clone() : SubsetSumIndividual&#xa;evaluate() : double&#xa;mutate() : Individual&#xa;crossover(other : Individual) : Individual&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="S8AWVA7TtjHDBbPfj8Qo-11">
+        <mxCell id="S8AWVA7TtjHDBbPfj8Qo-14" value="clone() : SubsetSumIndividual&#xa;evaluate() : double&#xa;mutate() : Individual&#xa;crossover(other : Individual) : Individual&#xa;toString() : toString&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="S8AWVA7TtjHDBbPfj8Qo-11">
           <mxGeometry y="58" width="260" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="4BdKqrBw1-vRmD4gOcu4-1" value="Evolution" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="50" y="590" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4BdKqrBw1-vRmD4gOcu4-2" value="." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="4BdKqrBw1-vRmD4gOcu4-1">
+          <mxGeometry y="26" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="4BdKqrBw1-vRmD4gOcu4-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=17;" vertex="1" parent="4BdKqrBw1-vRmD4gOcu4-1">
+          <mxGeometry y="50" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4BdKqrBw1-vRmD4gOcu4-4" value="Evolution(Population : Population,maxGeneration : int)&#xa;getBest() : Individual&#xa;evolve() : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="4BdKqrBw1-vRmD4gOcu4-1">
+          <mxGeometry y="58" width="380" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="4BdKqrBw1-vRmD4gOcu4-5" value="SubsetSumEvolution" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="90" y="810" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4BdKqrBw1-vRmD4gOcu4-6" value="." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="4BdKqrBw1-vRmD4gOcu4-5">
+          <mxGeometry y="26" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="4BdKqrBw1-vRmD4gOcu4-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=17;" vertex="1" parent="4BdKqrBw1-vRmD4gOcu4-5">
+          <mxGeometry y="50" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4BdKqrBw1-vRmD4gOcu4-8" value="SubsetSumEvolution" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=17;" vertex="1" parent="4BdKqrBw1-vRmD4gOcu4-5">
+          <mxGeometry y="58" width="380" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
