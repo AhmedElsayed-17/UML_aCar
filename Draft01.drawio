@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T08:54:49.532Z" agent="5.0 (Windows)" etag="vxgYp484sardWlKmOvPO" version="17.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-13T10:49:21.490Z" agent="5.0 (Windows)" etag="eEqvv2bFM9ie-EwWw82g" version="17.4.3" type="github" pages="3">
   <diagram name="General" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -160,7 +160,7 @@
             <mxPoint x="630" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BLPmgUg1dD0FdtuLCdOj-8" value="&lt;div&gt;&lt;font color=&quot;#FF3333&quot;&gt;Calculate the total weight (compare to battery)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF3333&quot;&gt;&amp;amp; Largest dim. ?&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
+        <mxCell id="BLPmgUg1dD0FdtuLCdOj-8" value="&lt;div&gt;&lt;font color=&quot;#FF3333&quot;&gt;Calculate the total weight (compare to battery performance)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#FF3333&quot;&gt;&amp;amp; Largest dim. ?&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="495" y="580" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FvmzdZviCj6tdNA3zdi5-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
