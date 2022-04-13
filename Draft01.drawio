@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T11:39:48.605Z" agent="5.0 (Windows)" etag="bCODrXF1Saw87cJt6R7w" version="17.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-13T11:40:29.989Z" agent="5.0 (Windows)" etag="O4q1ZM72X6WiIdJLzqqw" version="17.4.3" type="github" pages="3">
   <diagram name="General" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -229,7 +229,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-15" value="&lt;div&gt;Check other constrains&lt;/div&gt;&lt;div&gt;(battery vs distance)&lt;/div&gt;&lt;div&gt;in other words, enough fuel for your travel?&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="495" y="670" width="270" height="60" as="geometry" />
+          <mxGeometry x="480" y="670" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-17" target="5P1F-jVKBJmz6E3As6xX-22">
           <mxGeometry relative="1" as="geometry">
@@ -240,7 +240,7 @@
           <mxGeometry x="495" y="1140" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-19" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Dividing the arrangement into layers.&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Some of the components may be placed on the floor, others need to be at the top if can&#39;t handle the weight&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Also, it should be easy to access or not&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=17;fontColor=#000000;size=40;position=0.11;base=20;position2=0;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1010" width="270" height="180" as="geometry" />
+          <mxGeometry x="780" y="1000" width="280" height="180" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-22" target="5P1F-jVKBJmz6E3As6xX-23">
           <mxGeometry relative="1" as="geometry" />
