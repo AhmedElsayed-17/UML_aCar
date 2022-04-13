@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T11:40:29.989Z" agent="5.0 (Windows)" etag="O4q1ZM72X6WiIdJLzqqw" version="17.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-13T11:50:46.934Z" agent="5.0 (Windows)" etag="5J5IlbE5P_70Yov3ll6E" version="17.4.3" type="github" pages="3">
   <diagram name="General" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
         <mxCell id="FvmzdZviCj6tdNA3zdi5-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="1670" as="sourcePoint" />
-            <mxPoint x="1080" y="760" as="targetPoint" />
+            <mxPoint x="1080" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FvmzdZviCj6tdNA3zdi5-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
@@ -184,7 +184,7 @@
         <mxCell id="FvmzdZviCj6tdNA3zdi5-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="1670" as="sourcePoint" />
-            <mxPoint x="200" y="840" as="targetPoint" />
+            <mxPoint x="200" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#FF3333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GwWraAQLC3I3wMDbU-9T-2" target="5P1F-jVKBJmz6E3As6xX-14">
@@ -307,11 +307,14 @@
         <mxCell id="5P1F-jVKBJmz6E3As6xX-46" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="640" y="1650" width="30" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-47" value="&lt;div style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;The following diagram is about how the components could be placed within ONE vehicle&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;I think if we need to optimize different parameters like:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;- minimal no. of vehicles vs VbS modules&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;- cost function of each equipment compared to the needs of the entire rural region&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;&lt;br&gt;In that case, we need a separate algorithm to figure out the results for the bigger picture and it will take its results from the current algorithm for each vehicle&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="920" y="50" width="610" height="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="rjClvxTZDQUNRr1vejGJ" name="Optimization Algorithm">
-    <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
