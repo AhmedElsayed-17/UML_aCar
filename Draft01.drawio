@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T11:04:36.803Z" agent="5.0 (Windows)" etag="Ipp6jE-fqYPRS_KsSRwp" version="17.4.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-13T11:31:15.032Z" agent="5.0 (Windows)" etag="otxdXMHBtu_eP3T9YcAz" version="17.4.3" type="github" pages="3">
   <diagram name="General" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -165,14 +165,14 @@
         </mxCell>
         <mxCell id="FvmzdZviCj6tdNA3zdi5-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="900" as="sourcePoint" />
-            <mxPoint x="1080" y="900" as="targetPoint" />
+            <mxPoint x="200" y="920" as="sourcePoint" />
+            <mxPoint x="1080" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FvmzdZviCj6tdNA3zdi5-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="1830" as="sourcePoint" />
-            <mxPoint x="1080" y="840" as="targetPoint" />
+            <mxPoint x="1080" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FvmzdZviCj6tdNA3zdi5-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
@@ -193,7 +193,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GwWraAQLC3I3wMDbU-9T-2" value="Find the common components among all modules (if possible)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="490" y="940" width="270" height="60" as="geometry" />
+          <mxGeometry x="495" y="940" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#FF3333;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-1" target="GwWraAQLC3I3wMDbU-9T-2">
           <mxGeometry relative="1" as="geometry" />
@@ -202,31 +202,93 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="870" y="520" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="850" y="820" />
+              <mxPoint x="850" y="830" />
               <mxPoint x="850" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-1" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Within design limit?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="545" y="750" width="160" height="140" as="geometry" />
+          <mxGeometry x="550" y="760" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-7" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="706.25" y="800" width="30" height="20" as="geometry" />
+          <mxGeometry x="706.25" y="810" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-8" value="Reselect" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="785" y="480" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-9" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="630" y="880" width="40" height="20" as="geometry" />
+          <mxGeometry x="630" y="900" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;fontColor=#000000;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-14" target="5P1F-jVKBJmz6E3As6xX-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-14" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Sort from the largest to the smallest&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1050" width="270" height="60" as="geometry" />
+          <mxGeometry x="495" y="1050" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5P1F-jVKBJmz6E3As6xX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;fontColor=#000000;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-15" target="5P1F-jVKBJmz6E3As6xX-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5P1F-jVKBJmz6E3As6xX-15" value="&lt;div&gt;Check other constrains&lt;/div&gt;&lt;div&gt;(battery vs distance)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="490" y="670" width="270" height="50" as="geometry" />
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-15" value="&lt;div&gt;Check other constrains&lt;/div&gt;&lt;div&gt;(battery vs distance)&lt;/div&gt;&lt;div&gt;in other words, enough fuel for your travel?&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="495" y="670" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-17" target="5P1F-jVKBJmz6E3As6xX-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-17" value="Layers periorities" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1140" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-19" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Dividing the arrangement into layers.&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Some of the components may be placed on the floor, others need to be at the top if can&#39;t handle the weight&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Also, it should be easy to access or not&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontSize=17;fontColor=#000000;size=40;position=0.11;base=20;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1010" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-22" target="5P1F-jVKBJmz6E3As6xX-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-22" value="Run the arrangement algorithm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1240" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-23" target="5P1F-jVKBJmz6E3As6xX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-23" value="While running check other constrains like:&lt;br&gt;Vehicle balance compared to CG of the car" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1340" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-25" target="5P1F-jVKBJmz6E3As6xX-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="1270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="1490" />
+              <mxPoint x="830" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5P1F-jVKBJmz6E3As6xX-25" target="5P1F-jVKBJmz6E3As6xX-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="1490" />
+              <mxPoint x="430" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-25" value="Good balance" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1450" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-27" value="continue to distribute the rest" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1350" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-29" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1460" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-31" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="523.75" y="1460" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-32" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5P1F-jVKBJmz6E3As6xX-33" value="&lt;div&gt;position not valid&lt;/div&gt;&lt;div&gt;find a different position&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1330" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
