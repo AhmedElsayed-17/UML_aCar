@@ -1,4 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2022-06-02T14:18:28.670Z" agent="5.0 (Windows)" etag="2ALGH6BX1Y9S1ZbLqDj5" version="18.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-06T12:04:08.485Z" agent="5.0 (Windows)" etag="lNG6BY3S3oJzjGzEciaX" version="20.6.0" type="github" pages="4">
+  <diagram id="KVGw3MA5nhpD_5aETe2L" name="Web01">
+    <mxGraphModel dx="716" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1_3U_coJjHPhYpr11pJL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1_3U_coJjHPhYpr11pJL-3" target="1_3U_coJjHPhYpr11pJL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1_3U_coJjHPhYpr11pJL-3" value="Select Car model&lt;br&gt;no. of SDG" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_3U_coJjHPhYpr11pJL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1_3U_coJjHPhYpr11pJL-4" target="1_3U_coJjHPhYpr11pJL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1_3U_coJjHPhYpr11pJL-4" value="get necessary data for&lt;br&gt;e.g car size" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_3U_coJjHPhYpr11pJL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1_3U_coJjHPhYpr11pJL-7" target="1_3U_coJjHPhYpr11pJL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1_3U_coJjHPhYpr11pJL-7" value="launch BRKGA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1_3U_coJjHPhYpr11pJL-8" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="tjdyI6w0hLFioTKMTBFz" name="UML">
     <mxGraphModel dx="1038" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
